@@ -70,6 +70,11 @@ int main() {
    printf("El numero invertido es: %d\n",*p); 
   ```
 
--**_Correccion_**
+- **_Correccion 2_**:
+  La segunda correccion fue realizada a la funcion **f_beta**, renombrandola como **calcular_mitad**. Ademas se le agrego     un **print** que mustra por pantalla el calculo (_linea 16_).
+  ```
+  printf("La mitad del numero es :%d\n",*p);
+  ```
+  
 
  
