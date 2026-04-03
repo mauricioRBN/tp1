@@ -4,17 +4,17 @@
 
 ## Temas: Git, GitHub, debugging
 
-### Punto 2
+### (Punto 2)
 En este punto se nos pide analizar y corregir los archivos **codigo_misterioso.c** y **codigo_sin_funcionar.c** utilizando las herramientas de **debugging** instaladas en VS Code.
 
-#### **codigo_misterioso.c**
+#### **_codigo_misterioso.c_**
 Se nos dice de antemano:
 ```
 codigo_misterioso.c: Contiene código ofuscado (con nombres genéricos y poco descriptivos).
 Su tarea es usar el depurador para observar elcomportamiento de las variables en memoria, deducir
  qué hace lógicamente y renombrar las funciones y variables de forma adecuada.
 ```
-El codigo en cuestion es:
+####El codigo en cuestion es:
 ```
 #include <stdio.h>
 
