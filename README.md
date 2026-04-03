@@ -4,10 +4,10 @@
 
 ## Temas: Git, GitHub, debugging
 
-### (Punto 2)
+### _Punto 2_
 En este punto se nos pide analizar y corregir los archivos **codigo_misterioso.c** y **codigo_sin_funcionar.c** utilizando las herramientas de **debugging** instaladas en VS Code.
 
-### **_codigo_misterioso.c_**
+### **--> codigo_misterioso.c <--**
 Se nos dice de antemano:
 ```
 codigo_misterioso.c: Contiene código ofuscado (con nombres genéricos y poco descriptivos).
