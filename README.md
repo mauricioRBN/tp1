@@ -75,6 +75,12 @@ int main() {
   ```
   printf("La mitad del numero es :%d\n",*p);
   ```
+- **_Correccion 3_**:
+  La tercera correccion se realizo a la funcion **f_gamma**, renombrandola como **sumar_digitos**. Ademas se le agregó un **print** que muestra por pantalla la suma de el numero recibido por parametro.
+  ```
+      printf("Iniciando depuracion con el valor: %d\n", dato_secreto);
+  ```
+  
   
 
  
