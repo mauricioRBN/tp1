@@ -38,16 +38,41 @@ específicos que encontró (sintaxis, scanf, lógica de punteros) y explique
 cómo los solucionó.
 ```
 - **_Correccion 1_**:
-  - En primer lugar se agregó la librería faltante **stdio.h** al inicio del codigo. Sin esta librería, el codigo seria imposuble de compilar.
+  En primer lugar se agregó la librería faltante **stdio.h** al inicio del codigo. Sin esta librería, el codigo seria imposuble de compilar.
+  - 
+- **_Correccion 2_**:
   - (!) Se agregó el** * **a las variables **numero**, la cual entra como parametro por referencia en la funcion _duplicar_numero_. Esto con la finalidad de poder modificar el valor de la variable que "entregó" su direccion de memoria a la funcion.
   - (!) Se agregó el** * **a la variable **numero** dentro de la funcion _duplicar_numero_.
   Resultado:
     ```
-    void duplicar_numero(int *numero) { // add * , apunta a la direccion de memoria ingresada
-    *numero = *numero * 2;       // add *
+    void duplicar_numero(int *numero) {
+                             ^
+    *numero = *numero * 2;
+    ^         ^
     }
     ```
-
+- **_Correccion 3_**:
+  Se agregó el "&" ala hora de declarar la variable **valor1**.
+  Resultado:
+  ```
+  scanf("%d",&valor1);
+             ^
+  ```
+- **_Correccion 4_**:
+  Se agregó el ";" a la hora de declarar la variable **suma**.
+  Resultado:
+  ```
+  int suma = valor1 + valor2;
+                            ^
+  ```
+- **_Correccion 5_**:
+  Se agregó el ";" en el "return 0" final.
+  Resultado:
+  ```
+  return 0;
+          ^
+  ```
+  
   
   
 
