@@ -41,8 +41,8 @@ cómo los solucionó.
   En primer lugar se agregó la librería faltante **stdio.h** al inicio del codigo. Sin esta librería, el codigo seria imposuble de compilar.
   - 
 - **_Correccion 2_**:
-  - (!) Se agregó el** * **a las variables **numero**, la cual entra como parametro por referencia en la funcion _duplicar_numero_. Esto con la finalidad de poder modificar el valor de la variable que "entregó" su direccion de memoria a la funcion.
-  - (!) Se agregó el** * **a la variable **numero** dentro de la funcion _duplicar_numero_.
+  - Se agregó el** * **a las variables **numero**, la cual entra como parametro por referencia en la funcion _duplicar_numero_. Esto con la finalidad de poder modificar el valor de la variable que "entregó" su direccion de memoria a la funcion.
+  - Se agregó el** * **a la variable **numero** dentro de la funcion _duplicar_numero_.
   Resultado:
     ```
     void duplicar_numero(int *numero) {
